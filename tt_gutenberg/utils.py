@@ -23,7 +23,7 @@ def load_gutenberg_metadata():
 
 def load_gutenberg_for_plot():
     """
-    產生含 author、birthdate、language 的資料：
+    create author、birthdate、language data：
     languages ⟶(gutenberg_id)⟶ metadata ⟶(gutenberg_author_id)⟶ authors
     """
     a = load_gutenberg_authors()    # has: gutenberg_author_id, author, birthdate, alias...
